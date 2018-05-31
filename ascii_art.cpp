@@ -45,6 +45,17 @@ void ascii_art(const char* loc, int x=0, int y=0)
     }
 }
 
+/*	NOTE: x and y position elements are based on the coordinate system
+		It looks like as if the whole program is in the 4th quadrant
+		(0,0)	x(1)	x(2)	x(3)	.	.	.
+		y(1)
+		y(2)
+		y(3)
+		.
+		.
+		.
+	*/
+
 /*  this main is just for representation purposes, hence commented
     learn how to use this function from the following main function  */
 /*
